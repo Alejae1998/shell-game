@@ -1,1 +1,20 @@
-/* add home page styles here */
+.shells {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.shell img {
+  width: 100px;
+}
+
+.ball {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: none;
+}
+.shell.reveal .ball {
+  display: block;
+}
